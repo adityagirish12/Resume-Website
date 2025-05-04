@@ -228,6 +228,23 @@ input:checked + .slider::before {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* VIEW BUTTON */
+.btn-view {
+  display: inline-block;
+  margin-top: 12px;
+  background-color: var(--mainLinkColor);
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-view:hover {
+  background-color: #0a8ca0;
+}
+
 /* CERTIFICATIONS */
 .list--certifications li {
   color: var(--mainTextColor);
